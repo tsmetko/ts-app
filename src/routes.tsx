@@ -26,7 +26,7 @@ const routes = ({bul}:any): RouteObject[] => [
       },
       {
         path:"page2", 
-        element:<Page2 name="TSSS"/>
+        element:<Page2 name="TSSSss"/>
       },
       {
         path:"page3", 

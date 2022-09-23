@@ -8,6 +8,7 @@ const Page1 = ()=>{
 
     const itemss2 = [{id:"1", name:"Item1L2"},{id:"2", name:"Itemaaa2L2"},{id:"3", name:"Iteddm3L2"}]
 
+
     const [list1, setList1 ] = useState<boolean|undefined>(true)
     const[displayList, setdisplayList] = useState(itemss);
 
