@@ -4,9 +4,8 @@ import { useState, useEffect } from 'react';
 
 const Page1 = ()=>{
     console.log("PAge1")
-    const itemss = [{id:"1", name:"Item1"},{id:"2", name:"Item2"},{id:"3", name:"Item3"}]
-
-    const itemss2 = [{id:"1", name:"Item1L2"},{id:"2", name:"Itemaaa2L2"},{id:"3", name:"Iteddm3L2"}]
+    const itemss = [{id:"1", name:"Item1"},{id:"2", name:"Item222"},{id:"3", name:"Item333"}]
+    const itemss2 = [{id:"1", name:"Item1L2"},{id:"2", name:"Itemaaa2L2"},{id:"3", name:"Iteddm3L22"}]
 
 
     const [list1, setList1 ] = useState<boolean|undefined>(true)
