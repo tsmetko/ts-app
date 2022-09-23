@@ -21,7 +21,7 @@ const Page2 = (propess:any)=>{
 
     return (
         <>
-        {console.log("render Page2")}
+        {console.log("render Page22")}
             <Button variant="outlined" onClick={toggle}> Toggle</Button>
             <h3>Page 2</h3>
             <CList2 list={displayList}></CList2>
