@@ -10,7 +10,7 @@ const Page2 = (propess:any)=>{
     const[displayList, setdisplayList] = useState(itemss);
 
     const toggle = ()=>{
-      console.log("aaaaaa", list1)
+      console.log("cccc", list1)
       if(list1){
         setdisplayList(itemss2);
       }else{
