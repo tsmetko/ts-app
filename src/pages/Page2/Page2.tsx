@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const Page2 = (propess:any)=>{
     console.log("PAge2")
-    const itemss = <ol><li>List1</li><li>List2</li><li>List3</li> <li>{propess.name}</li></ol>
+    const itemss = <ol><li>Lisst1</li><li>List2</li><li>List3</li> <li>{propess.name}</li></ol>
     const itemss2 =  <ol><li>List1L2</li><li>List2L2</li><li>List3L2</li></ol>
     const [list1, setList1 ] = useState<boolean|undefined>(true)
     const[displayList, setdisplayList] = useState(itemss);
